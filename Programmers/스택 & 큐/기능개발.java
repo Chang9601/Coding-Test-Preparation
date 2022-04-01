@@ -27,9 +27,6 @@ class Solution {
             l.add(cnt);
         }
         
-        if(!s.isEmpty())
-            l.add(s.size());
-                
         ans = new int[l.size()];
         for(int i = 0; i < l.size(); i++)
             ans[i] = l.get(i);
